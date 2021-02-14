@@ -1,3 +1,4 @@
+# Practice Examples to learn Bar-Graphs.
 # Chapter 3, Bar-Graphs, R Graphics cookbook.
 # You have a data frame where one column represents the x position of each bar, and
 # another column represents the vertical (y) height of each bar.
@@ -148,4 +149,5 @@ ggplot(tophit, aes(x=avg, y=name)) +
   theme_bw() +
   theme(panel.grid.major.y = element_blank()) +
   facet_grid(lg ~ ., scales = "free_y", space="free_y")
+
 
